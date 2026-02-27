@@ -4,12 +4,13 @@
 
 int main()
 {
-    int tamano = 0;
-    int* array;
-    array = new int[tamano];
+    int tamano;
+    
+   
     std::cout << "Ingrese el tamano de elementos: "<<std::endl;
     std::cin >> tamano;
 
+    int* array = new int[tamano];
 
     for (int i = 0; i < tamano; i++) {
         array[i] = rand()%20;
@@ -22,5 +23,7 @@ int main()
     }
 
     InvertirMatriz(array, tamano);
+
+	delete[] array;
 }
 

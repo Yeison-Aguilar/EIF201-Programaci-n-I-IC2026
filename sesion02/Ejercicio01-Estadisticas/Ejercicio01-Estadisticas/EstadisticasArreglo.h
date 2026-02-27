@@ -11,12 +11,4 @@ void Promedio(int numeros[], int tamano);
 
 
 
-
-
-
-
-
-
-
-
 #endif // !ESTADISTICASARREGLO_H

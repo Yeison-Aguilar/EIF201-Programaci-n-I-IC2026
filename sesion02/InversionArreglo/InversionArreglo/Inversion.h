@@ -1,6 +1,10 @@
 #pragma once
-void InvertirMatriz(int array, int tamano) {
+#ifndef INVERSION_H
+#define INVERSION_H
+
+void InvertirMatriz(int array[], int tamano);
 
 	
-}
 
+
+#endif // !1

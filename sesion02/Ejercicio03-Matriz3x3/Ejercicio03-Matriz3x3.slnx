@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="InversionArreglo/InversionArreglo.vcxproj" Id="3012c41c-3fe8-4668-9864-3a7f9d3152b2" />
+  <Project Path="Ejercicio03-Matriz3x3/Ejercicio03-Matriz3x3.vcxproj" />
 </Solution>
