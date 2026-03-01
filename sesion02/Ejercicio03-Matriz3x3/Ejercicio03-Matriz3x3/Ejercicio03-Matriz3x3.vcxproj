@@ -128,6 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ejercicio03-Matriz3x3.cpp" />
+    <ClCompile Include="matriz.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="matriz.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
