@@ -41,3 +41,18 @@ void imprimirMatriz(int matriz[FILAS][COLS])
 		cout << endl;
 	}
 }
+
+void sumarDiagonal(int matriz[FILAS][COLS])
+{
+	int sumaM = 0;
+	for (int i = 0; i < FILAS; i++) {
+		for (int j = 0; j < COLS; j++) {
+
+			if (i == j) {
+				sumaM += matriz[i][j];
+			}
+		}
+		
+	}
+	cout << "La suma de la diagonal es: " << sumaM;
+}

@@ -11,5 +11,7 @@ void sumarColumnas(int matriz[FILAS][COLS]);
 
 void imprimirMatriz(int matriz[FILAS][COLS]);
 
+void sumarDiagonal(int matriz[FILAS][COLS]);
+
 #endif // !MATRIZ_H
 

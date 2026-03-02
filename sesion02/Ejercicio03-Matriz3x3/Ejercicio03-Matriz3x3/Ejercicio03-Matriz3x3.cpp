@@ -24,7 +24,7 @@ int main()
 
     imprimirMatriz(matriz);
 
-
+    sumarDiagonal(matriz);
 
 
 
