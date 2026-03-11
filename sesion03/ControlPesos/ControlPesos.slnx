@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ControlPesos/ControlPesos.vcxproj" Id="d00fd997-3929-4f50-91d0-2c20ab6ef9ae" />
+</Solution>
