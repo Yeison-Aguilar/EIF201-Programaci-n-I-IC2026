@@ -14,6 +14,13 @@ private:
 public:
 	bool assignColonist(c : Colonist*);
 	int evacuateDome(idx: int);
+	bool transferColonist(id, srcldx, dstldx);
+	int rebalance();
+	Colonist* findColonist(id);
+	void controlBoard() const;
+	void oxygenAlert(threshold) const;
+	void productivityReport() const;
+	void globalStats() const;
 
 
 
